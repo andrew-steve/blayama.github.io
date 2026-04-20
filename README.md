@@ -101,7 +101,7 @@ I am a data scientist and researcher focused on building intelligent systems tha
 ---
 
 ## 🌐 Portfolio  
-🚀 Visit: https://blayama.github.io/
+🚀 Visit: https://andrew-steve.github.io/blayama.github.io/
 
 ---
 
