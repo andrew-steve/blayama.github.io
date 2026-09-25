@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Projects · Andrew Blayama Stephen</title>
+<meta name="description" content="Data analysis, BI dashboards, survey research, data governance and machine learning projects by Andrew Blayama Stephen.">
+<script>try{var t=localStorage.getItem("abs-theme");if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html"><b>Andrew B. Stephen</b><span>data · health · development</span></a>
+    <nav class="nav" aria-label="Main">
+      <a href="index.html">Intro</a>
+      <a href="research.html">Research</a>
+      <a href="projects.html" aria-current="page">Projects</a>
+      <a href="assets/Andrew_Stephen_Resume.pdf" target="_blank" rel="noopener">CV</a>
+    </nav>
+    <button class="theme-btn" type="button" aria-label="Toggle theme"></button>
+  </div>
+</header>
+
+<main>
+  <div class="page-hero">
+    <div class="wrap">
+      <p class="eyebrow rise"><span class="dot"></span>Projects · Case studies</p>
+      <h1 class="rise d1" style="max-width:18ch">From field survey to dashboard to model.</h1>
+      <p class="lede rise d2">Projects from government, non-profit and research work in Rwanda and Nigeria. Filter by the kind of work you are hiring for, and open any card for the detail.</p>
+    </div>
+  </div>
+
+  <!-- ============ HOW I WORK ============ -->
+  <section id="process" style="padding-top:0">
+    <div class="wrap">
+      <p class="eyebrow" style="margin-bottom:1.5rem">How an analytics project runs, end to end</p>
+      <ol class="pipeline">
+        <li><b>Scope</b><span>Turn a stakeholder's question into measurable KPIs.</span></li>
+        <li><b>Collect</b><span>Design instruments and workflows, e.g. ODK surveys.</span></li>
+        <li><b>Validate</b><span>Check quality, clean, and document the data.</span></li>
+        <li><b>Analyse</b><span>SQL, Excel, Python and statistical methods.</span></li>
+        <li><b>Visualise</b><span>Power BI or Tableau dashboards and charts.</span></li>
+        <li><b>Brief</b><span>Present insights to technical and non-technical teams.</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section id="work">
+    <div class="wrap">
+      <div class="filters" role="toolbar" aria-label="Filter projects">
+        <span class="label">Filter</span>
+        <button class="filter" type="button" data-filter="all" aria-pressed="true">All</button>
+        <button class="filter" type="button" data-filter="bi" aria-pressed="false">Analytics &amp; BI</button>
+        <button class="filter" type="button" data-filter="survey" aria-pressed="false">Survey research</button>
+        <button class="filter" type="button" data-filter="gov" aria-pressed="false">Data governance</button>
+        <button class="filter" type="button" data-filter="ml" aria-pressed="false">Machine learning</button>
+      </div>
+
+      <!-- featured -->
+      <article class="featured" id="p-malaria" data-cat="ml">
+        <div class="body">
+          <div class="card-top"><span class="cat ml">Machine learning</span><span class="meta muted mono" style="font-size:.76rem">Dec 2024 – present</span></div>
+          <h3>AI for malaria parasite detection</h3>
+          <p class="muted" style="margin-top:-.4rem">Digital Malaria Control for the Developing World · Kigali, Rwanda · Research Assistant</p>
+          <p>Malaria diagnosis still relies on a trained microscopist reading blood films by eye, and trained microscopists are scarce. This project builds AI tools that find and classify malaria parasites in slide images to support that work.</p>
+          <ul style="margin:0;padding-left:1.1rem;color:var(--ink-2);display:grid;gap:.3rem">
+            <li>Validate and label parasites in blood-film images to build reliable training data.</li>
+            <li>Apply ML and computer-vision models to detect and classify parasites.</li>
+            <li>Research and iterate on existing models to improve them.</li>
+          </ul>
+          <div class="stack" style="display:flex;flex-wrap:wrap;gap:.3rem"><span class="tag">Python</span><span class="tag">Object detection</span><span class="tag">Image annotation</span><span class="tag">Model evaluation</span></div>
+        </div>
+        <div class="visual">
+          <figure class="scope">
+            <div class="scope-lens"><canvas class="field" data-seed="29" aria-label="Illustration of a blood film with detection boxes" role="img"></canvas></div>
+            <figcaption>Illustration, not model output.</figcaption>
+          </figure>
+        </div>
+      </article>
+
+      <div class="grid">
+        <!-- Cenfri -->
+        <article class="card" id="p-cenfri" data-cat="gov">
+          <div class="card-top"><span class="cat gov">Data governance</span><span class="meta">Oct 2025 – now</span></div>
+          <h3>Rwanda national data governance &amp; cataloguing</h3>
+          <p class="where">Cenfri · Kigali, Rwanda</p>
+          <p>Supporting Rwanda's national effort to catalogue government data and improve how it is managed and shared.</p>
+          <details><summary>What I do</summary>
+            <ul>
+              <li>Support national data governance and data cataloguing initiatives.</li>
+              <li>Improve data quality, interoperability and responsible data sharing.</li>
+              <li>Work with government teams on data management and analytics.</li>
+              <li>Contribute to centralised reporting and analytics infrastructure.</li>
+            </ul>
+          </details>
+          <div class="stack"><span class="tag">Data catalogue</span><span class="tag">Data quality</span><span class="tag">Interoperability</span></div>
+        </article>
+
+        <!-- Natview -->
+        <article class="card" id="p-natview" data-cat="bi">
+          <div class="card-top"><span class="cat bi">Analytics &amp; BI</span><span class="meta">Apr – Jul 2024</span></div>
+          <h3>Programme performance dashboards</h3>
+          <p class="where">Natview Foundation · Kaduna, Nigeria</p>
+          <p>Power BI dashboards that let programme leads track operational and programme KPIs without waiting for manual reports.</p>
+          <details><summary>What I did</summary>
+            <ul>
+              <li>Built Power BI dashboards for operational and programme metrics.</li>
+              <li>Automated reporting workflows to improve accuracy and turnaround.</li>
+              <li>Analysed survey and operational data with Excel, SQL and statistics.</li>
+              <li>Contributed to data management and reporting standards.</li>
+            </ul>
+          </details>
+          <div class="stack"><span class="tag">Power BI</span><span class="tag">SQL</span><span class="tag">Excel</span><span class="tag">Automation</span></div>
+        </article>
+
+        <!-- Health services survey -->
+        <article class="card" id="p-health-services" data-cat="survey bi">
+          <div class="card-top"><span class="cat survey">Survey research</span><span class="meta">Apr – Jul 2024</span></div>
+          <h3>Citizen Perception Survey on Health Services</h3>
+          <p class="where">Kaduna State, Nigeria · Data Analyst</p>
+          <p>Measured how residents experience public health services, and turned the results into material decision-makers could act on.</p>
+          <details><summary>What I did</summary>
+            <ul>
+              <li>Supported questionnaire scripting, testing and data collection.</li>
+              <li>Analysed survey data with Excel and statistical methods.</li>
+              <li>Built insights and presentations for stakeholders and decision-makers.</li>
+            </ul>
+          </details>
+          <div class="stack"><span class="tag">Excel</span><span class="tag">Statistics</span><span class="tag">Questionnaire design</span></div>
+        </article>
+
+        <!-- Drug availability -->
+        <article class="card" id="p-drugs" data-cat="survey">
+          <div class="card-top"><span class="cat survey">Survey research</span><span class="meta">Dec 2023 – May 2024</span></div>
+          <h3>Citizen Perception Survey on Drug Availability</h3>
+          <p class="where">Kaduna State, Nigeria · Data Analyst</p>
+          <p>Analysed access to and affordability of medicines to inform health policy recommendations.</p>
+          <details><summary>What I did</summary>
+            <ul>
+              <li>Designed data collection workflows in Open Data Kit (ODK).</li>
+              <li>Analysed healthcare access and affordability data.</li>
+              <li>Presented findings and recommendations to project stakeholders.</li>
+            </ul>
+          </details>
+          <div class="stack"><span class="tag">ODK</span><span class="tag">Excel</span><span class="tag">Policy analysis</span></div>
+        </article>
+
+        <!-- OOSC -->
+        <article class="card" id="p-oosc" data-cat="bi">
+          <div class="card-top"><span class="cat bi">Analytics &amp; BI</span><span class="meta">Apr – Jun 2024</span></div>
+          <h3>Out-of-School Children vs. Annual School Census</h3>
+          <p class="where">Kaduna State, Nigeria · Data Analyst</p>
+          <p>A comparative analysis of learning poverty that joined two separate education datasets around shared indicators.</p>
+          <details><summary>What I did</summary>
+            <ul>
+              <li>Reviewed the Annual School Census (ASC) and Out-of-School Children (OOSC) reports.</li>
+              <li>Identified common KPIs and merged the two datasets.</li>
+              <li>Analysed the combined data and documented the findings.</li>
+              <li>Presented the report to stakeholders.</li>
+            </ul>
+          </details>
+          <div class="stack"><span class="tag">Data integration</span><span class="tag">KPIs</span><span class="tag">Education data</span></div>
+        </article>
+
+        <!-- KDBS -->
+        <article class="card" id="p-kdbs" data-cat="gov bi">
+          <div class="card-top"><span class="cat gov">Data governance</span><span class="meta">Aug 2023 – Apr 2024</span></div>
+          <h3>State health data pipelines</h3>
+          <p class="where">Kaduna State Bureau of Statistics · Data Science Fellow</p>
+          <p>Supported the pipelines and models the Kaduna State Government uses to plan with health data.</p>
+          <details><summary>What I did</summary>
+            <ul>
+              <li>Supported health data pipelines and modelling for planning.</li>
+              <li>Worked with sector experts to frame analytical questions.</li>
+              <li>Used the Bureau's analytical tools and statistical workflows.</li>
+            </ul>
+          </details>
+          <div class="stack"><span class="tag">Pipelines</span><span class="tag">Health data</span><span class="tag">Government</span></div>
+        </article>
+
+        <!-- Leukemia -->
+        <article class="card" id="p-leukemia" data-cat="ml">
+          <div class="card-top"><span class="cat ml">Machine learning</span><span class="meta">2025</span></div>
+          <h3>Leukemia detection from blood films</h3>
+          <p class="where">IEEE AFRICON 2025 · First author</p>
+          <p>A YOLO and Vision Transformer pipeline for detecting leukemia in microscopic blood-film images.</p>
+          <div class="links"><a class="chip-link" href="research.html#pub-leukemia">Read more</a></div>
+          <div class="stack"><span class="tag">YOLO</span><span class="tag">ViT</span><span class="tag">Microscopy</span></div>
+        </article>
+
+        <!-- Glioma -->
+        <article class="card" id="p-glioma" data-cat="ml">
+          <div class="card-top"><span class="cat ml">Machine learning</span><span class="meta">2025 – 2026</span></div>
+          <h3>Glioma segmentation on Sub-Saharan MRI</h3>
+          <p class="where">MICCAI 2025 · Springer LNCS</p>
+          <p>Benchmarking nnU-Net against other segmentation strategies on a limited brain MRI dataset from Sub-Saharan Africa.</p>
+          <div class="links"><a class="chip-link" href="https://doi.org/10.1007/978-3-032-16365-3_30" target="_blank" rel="noopener">Paper</a><a class="chip-link" href="research.html#pub-glioma">Details</a></div>
+          <div class="stack"><span class="tag">nnU-Net</span><span class="tag">Segmentation</span><span class="tag">MRI</span></div>
+        </article>
+
+        <!-- Recommender -->
+        <article class="card" id="p-recsys" data-cat="ml">
+          <div class="card-top"><span class="cat ml">Machine learning</span><span class="meta">Aug – Dec 2025</span></div>
+          <h3>Recommender systems labs</h3>
+          <p class="where">Carnegie Mellon University Africa · Teaching Assistant</p>
+          <p>Built and debugged collaborative-filtering and content-based recommenders used in course labs and student projects.</p>
+          <div class="stack"><span class="tag">Collaborative filtering</span><span class="tag">Content-based</span><span class="tag">Python</span></div>
+        </article>
+
+        <!-- AutoSign -->
+        <article class="card" id="p-autosign" data-cat="ml">
+          <div class="card-top"><span class="cat ml">Machine learning</span><span class="meta">2025</span></div>
+          <h3>AutoSign: pose-to-text sign language</h3>
+          <p class="where">ICCV 2025 Workshop · Co-author</p>
+          <p>Continuous sign language recognition that translates pose sequences directly into text.</p>
+          <div class="links"><a class="chip-link" href="https://openaccess.thecvf.com/content/ICCV2025W/MSLR/html/Johnny_AutoSign_Direct_Pose-to-Text_Translation_for_Continuous_Sign_Language_Recognition_ICCVW_2025_paper.html" target="_blank" rel="noopener">Paper</a></div>
+          <div class="stack"><span class="tag">Pose estimation</span><span class="tag">Sequence models</span></div>
+        </article>
+
+        <!-- DR -->
+        <article class="card" id="p-dr" data-cat="ml">
+          <div class="card-top"><span class="cat ml">Machine learning</span><span class="meta">2025</span></div>
+          <h3>Diabetic retinopathy screening</h3>
+          <p class="where">AI in Health Africa 2025 · Poster</p>
+          <p>Automated detection of diabetic retinopathy from retinal images to support screening.</p>
+          <div class="links"><a class="chip-link" href="https://conference.makerereaihealthlab.com/posters/7222bc75-79ea-48b3-8a8e-a9ac6e03476d" target="_blank" rel="noopener">Poster</a></div>
+          <div class="stack"><span class="tag">Classification</span><span class="tag">Retinal imaging</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <div class="cta">
+        <div>
+          <p class="eyebrow" style="color:inherit;opacity:.7">Next project</p>
+          <h2 style="margin-top:.8rem">Have data that needs a clear answer?</h2>
+          <p>I'm open to Data Analyst and Data Scientist roles and collaborations in health, development and the public sector.</p>
+        </div>
+        <div class="btns">
+          <button class="btn" type="button" data-copy="andrewstephen703@gmail.com"><span data-copy-label>Copy email</span></button>
+          <a class="btn ghost" href="assets/Andrew_Stephen_Resume.pdf" target="_blank" rel="noopener">CV (PDF)</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>© <span data-year>2026</span> Andrew Blayama Stephen · Kigali</span>
+    <nav aria-label="Footer">
+      <a href="index.html">Intro</a><a href="research.html">Research</a><a href="projects.html">Projects</a>
+      <a href="https://github.com/andrew-steve" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/andrew-blayama-stephen-b12a81144" target="_blank" rel="noopener">LinkedIn</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

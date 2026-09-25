@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Research · Andrew Blayama Stephen</title>
+<meta name="description" content="Publications and research by Andrew Blayama Stephen: glioma segmentation, leukemia detection, sign language recognition and diabetic retinopathy screening.">
+<script>try{var t=localStorage.getItem("abs-theme");if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html"><b>Andrew B. Stephen</b><span>data · health · development</span></a>
+    <nav class="nav" aria-label="Main">
+      <a href="index.html">Intro</a>
+      <a href="research.html" aria-current="page">Research</a>
+      <a href="projects.html">Projects</a>
+      <a href="assets/Andrew_Stephen_Resume.pdf" target="_blank" rel="noopener">CV</a>
+    </nav>
+    <button class="theme-btn" type="button" aria-label="Toggle theme"></button>
+  </div>
+</header>
+
+<main>
+  <div class="page-hero">
+    <div class="wrap page-hero-grid">
+      <div>
+        <p class="eyebrow rise"><span class="dot"></span>Research · Applied ML for health</p>
+        <h1 class="rise d1">Medical AI built for the data Africa actually has.</h1>
+        <p class="lede rise d2">I work on computer vision for medical images collected in low-resource settings: brain MRI, blood-film microscopy and retinal scans. The common thread is getting reliable results from small, local datasets, and being honest about where strong baselines are enough.</p>
+        <div class="btns rise d3" style="margin-top:2rem">
+          <a class="btn" href="#pubs">Publications</a>
+          <a class="btn ghost" href="#ongoing">Ongoing work</a>
+          <a class="btn ghost" href="#talks">Talks &amp; events</a>
+        </div>
+      </div>
+      <figure class="scope rise d2">
+        <div class="scope-lens"><canvas class="field" data-seed="11" aria-label="Illustration of a stained blood film with detection boxes around infected cells" role="img"></canvas></div>
+        <figcaption>Illustration: a thin blood film as a detector sees it.<br>Synthetic render, not model output.</figcaption>
+      </figure>
+    </div>
+  </div>
+
+  <!-- ============ THEMES ============ -->
+  <section id="themes">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <p class="eyebrow">Research themes</p>
+          <h2>Four problems I have worked on.</h2>
+        </div>
+        <p>Each theme maps to at least one paper, poster or active project below.</p>
+      </div>
+      <div class="themes">
+        <div class="theme"><span class="meta">Segmentation · MRI</span><h3>Brain tumour segmentation</h3><p>How well do standard pipelines like nnU-Net hold up on limited Sub-Saharan glioma MRI data?</p></div>
+        <div class="theme"><span class="meta">Detection · Microscopy</span><h3>Blood-film diagnostics</h3><p>YOLO and Vision Transformers for leukemia detection, and AI for malaria parasite detection and classification.</p></div>
+        <div class="theme"><span class="meta">Sequence · Pose</span><h3>Sign language recognition</h3><p>Translating pose sequences directly to text for continuous sign language recognition.</p></div>
+        <div class="theme"><span class="meta">Classification · Retina</span><h3>Diabetic retinopathy screening</h3><p>Automated detection of diabetic retinopathy from retinal images to support screening.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PUBLICATIONS ============ -->
+  <section id="pubs">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <p class="eyebrow">Publications</p>
+          <h2>Papers &amp; posters.</h2>
+        </div>
+        <p>My name is underlined in each author list. Use "Copy citation" for a ready-made reference.</p>
+      </div>
+
+      <ol class="pubs">
+        <li class="pub" id="pub-glioma">
+          <div class="year">2026</div>
+          <div>
+            <div class="badges"><span class="tag jade">Conference paper</span><span class="tag">MICCAI 2025</span><span class="tag">Springer LNCS</span></div>
+            <h3>Reassessing Glioma Segmentation Strategies: nnU-Net as a Strong Baseline on Limited Sub-Saharan MRI Data</h3>
+            <p class="authors">Uwimana Lowami, <b>Andrew Blayama Stephen</b>, Confidence Raymond, Dong Zhang, Maruf Adewole, Udunna C. Anazodo, Mehmet Kurt, Damilare Olatunji, Bernes Lorier Atabonfack</p>
+            <p class="venue">Segmentation, Classification, and Synthesis for Brain Tumors and Traumatic Brain Injuries. MICCAI 2025. Lecture Notes in Computer Science, vol. 16376. Springer, Cham.</p>
+            <p class="gist">Evaluates glioma segmentation approaches on a limited MRI cohort from Sub-Saharan Africa and makes the case for nnU-Net as the baseline new methods should beat. Presented in Daejeon, Republic of Korea, September 2025.</p>
+            <div class="links">
+              <a class="chip-link" href="https://doi.org/10.1007/978-3-032-16365-3_30" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 3H3v10h10v-3M9 3h4v4M13 3 7 9"/></svg>Paper (DOI)</a>
+              <button class="chip-link" type="button" data-copy="#cite-glioma"><span data-copy-label>Copy citation</span></button>
+            </div>
+            <pre id="cite-glioma" hidden>Lowami, U., Stephen, A. B., Raymond, C., Zhang, D., Adewole, M., Anazodo, U. C., Kurt, M., Olatunji, D., &amp; Atabonfack, B. L. Reassessing Glioma Segmentation Strategies: nnU-Net as a Strong Baseline on Limited Sub-Saharan MRI Data. In Segmentation, Classification, and Synthesis for Brain Tumors and Traumatic Brain Injuries (MICCAI 2025). Lecture Notes in Computer Science, vol 16376. Springer, Cham. https://doi.org/10.1007/978-3-032-16365-3_30</pre>
+          </div>
+        </li>
+
+        <li class="pub" id="pub-leukemia">
+          <div class="year">2025</div>
+          <div>
+            <div class="badges"><span class="tag jade">Conference paper</span><span class="tag">IEEE AFRICON 2025</span><span class="tag ochre">First author</span></div>
+            <h3>Automated and Accessible Leukemia Detection from Microscopic Blood Films Using YOLO and Vision Transformers</h3>
+            <p class="authors"><b>Andrew Blayama Stephen</b>, Miracle James Olotuche, Mona Aman, Azizuddin Ahmed Biyabani</p>
+            <p class="venue">IEEE AFRICON 2025, Polokwane, South Africa.</p>
+            <p class="gist">Combines YOLO object detection with Vision Transformer classification to flag leukemia in microscopic blood-film images, aiming for a pipeline that is practical for labs with limited specialist capacity.</p>
+            <div class="links">
+              <a class="chip-link" href="https://2025.ieee-africon.org/" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 3H3v10h10v-3M9 3h4v4M13 3 7 9"/></svg>Conference</a>
+              <span class="chip-link" style="cursor:default">IEEE Xplore link coming soon</span>
+              <button class="chip-link" type="button" data-copy="#cite-leukemia"><span data-copy-label>Copy citation</span></button>
+            </div>
+            <pre id="cite-leukemia" hidden>Stephen, A. B., Olotuche, M. J., Aman, M., &amp; Biyabani, A. A. (2025). Automated and Accessible Leukemia Detection from Microscopic Blood Films Using YOLO and Vision Transformers. IEEE AFRICON 2025, Polokwane, South Africa.</pre>
+          </div>
+        </li>
+
+        <li class="pub" id="pub-autosign">
+          <div class="year">2025</div>
+          <div>
+            <div class="badges"><span class="tag jade">Workshop paper</span><span class="tag">ICCV 2025 · MSLR</span></div>
+            <h3>AutoSign: Direct Pose-to-Text Translation for Continuous Sign Language Recognition</h3>
+            <p class="authors">Samuel Johnny, Blessed Guda, <b>Andrew Blayama Stephen</b>, Assane Gueye</p>
+            <p class="venue">Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops, MSLR 2025.</p>
+            <p class="gist">Translates body-pose sequences directly into text for continuous sign language recognition.</p>
+            <div class="links">
+              <a class="chip-link" href="https://openaccess.thecvf.com/content/ICCV2025W/MSLR/html/Johnny_AutoSign_Direct_Pose-to-Text_Translation_for_Continuous_Sign_Language_Recognition_ICCVW_2025_paper.html" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 3H3v10h10v-3M9 3h4v4M13 3 7 9"/></svg>Paper (CVF Open Access)</a>
+              <button class="chip-link" type="button" data-copy="#cite-autosign"><span data-copy-label>Copy citation</span></button>
+            </div>
+            <pre id="cite-autosign" hidden>Johnny, S., Guda, B., Stephen, A. B., &amp; Gueye, A. (2025). AutoSign: Direct Pose-to-Text Translation for Continuous Sign Language Recognition. In Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops, MSLR.</pre>
+          </div>
+        </li>
+
+        <li class="pub" id="pub-dr">
+          <div class="year">2025</div>
+          <div>
+            <div class="badges"><span class="tag">Poster</span><span class="tag">AI in Health Africa 2025</span></div>
+            <h3>Automated Diabetic Retinopathy Detection</h3>
+            <p class="authors">Mohamed Alpha, Mukama Francois, <b>Andrew Blayama Stephen</b></p>
+            <p class="venue">AI in Health Africa Conference 2025, Makerere AI Health Lab.</p>
+            <p class="gist">Poster on automated detection of diabetic retinopathy from retinal images as a screening aid.</p>
+            <div class="links">
+              <a class="chip-link" href="https://conference.makerereaihealthlab.com/posters/7222bc75-79ea-48b3-8a8e-a9ac6e03476d" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 3H3v10h10v-3M9 3h4v4M13 3 7 9"/></svg>Poster</a>
+              <button class="chip-link" type="button" data-copy="#cite-dr"><span data-copy-label>Copy citation</span></button>
+            </div>
+            <pre id="cite-dr" hidden>Alpha, M., Francois, M., &amp; Stephen, A. B. (2025). Automated Diabetic Retinopathy Detection. Poster, AI in Health Africa Conference 2025.</pre>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ ONGOING ============ -->
+  <section id="ongoing">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <p class="eyebrow">Ongoing work</p>
+          <h2>In progress.</h2>
+        </div>
+        <p>Active research roles and projects that have not been published yet.</p>
+      </div>
+      <div class="ongoing">
+        <article>
+          <p class="meta muted" style="font-size:.76rem">Dec 2024 – present · Kigali, Rwanda</p>
+          <h3>Digital Malaria Control for the Developing World</h3>
+          <p class="muted">Research Assistant</p>
+          <ul>
+            <li>Validating and labelling malaria parasites in blood-film images.</li>
+            <li>Applying AI and ML to detect and classify malaria parasites.</li>
+            <li>Iterating on and improving existing detection models.</li>
+          </ul>
+          <div class="links" style="display:flex;gap:.4rem;flex-wrap:wrap"><span class="tag jade">Object detection</span><span class="tag">Annotation</span><span class="tag">Microscopy</span></div>
+        </article>
+        <article>
+          <p class="meta muted" style="font-size:.76rem">Jun 2025 – Aug 2025 · CMU-Africa</p>
+          <h3>Healthcare data analysis with ML</h3>
+          <p class="muted">Graduate Research Assistant</p>
+          <ul>
+            <li>Applied machine learning to healthcare datasets.</li>
+            <li>Validated data to improve reliability and model accuracy.</li>
+            <li>Ran EDA and performance evaluation in Python, and hardened analysis pipelines through testing.</li>
+          </ul>
+          <div class="links" style="display:flex;gap:.4rem;flex-wrap:wrap"><span class="tag jade">Health AI</span><span class="tag">Python</span><span class="tag">Evaluation</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TALKS ============ -->
+  <section id="talks">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <p class="eyebrow">Talks &amp; events</p>
+          <h2>Presentations and programmes.</h2>
+        </div>
+        <p>Where I have presented work or joined research communities.</p>
+      </div>
+      <div class="talks">
+        <div class="talk"><div class="meta"><span>Dec 2025</span><span>Polokwane, South Africa</span></div><h3>IEEE AFRICON 2025</h3><p>Paper presentation: leukemia detection from blood films with YOLO and Vision Transformers.</p></div>
+        <div class="talk"><div class="meta"><span>Sep 2025</span><span>Daejeon, Republic of Korea</span></div><h3>MICCAI 2025</h3><p>Paper presentation: glioma segmentation on limited Sub-Saharan MRI data.</p></div>
+        <div class="talk"><div class="meta"><span>Aug 2025</span><span>Kigali, Rwanda</span></div><h3>Digital Humanism Summer School</h3><p>Participant in a programme on technology, ethics and society.</p></div>
+        <div class="talk"><div class="meta"><span>Jun 2025</span><span>Kigali, Rwanda</span></div><h3>Nuclear Energy Innovation Summit for Africa</h3><p>Attended the inaugural NEISA conference.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <div class="cta">
+        <div>
+          <p class="eyebrow" style="color:inherit;opacity:.7">Collaborate</p>
+          <h2 style="margin-top:.8rem">Working on health AI in Africa?</h2>
+          <p>I'm happy to talk about datasets, annotation, evaluation or joint papers.</p>
+        </div>
+        <div class="btns">
+          <button class="btn" type="button" data-copy="andrewstephen703@gmail.com"><span data-copy-label>Copy email</span></button>
+          <a class="btn ghost" href="projects.html">See projects</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>© <span data-year>2026</span> Andrew Blayama Stephen · Kigali</span>
+    <nav aria-label="Footer">
+      <a href="index.html">Intro</a><a href="research.html">Research</a><a href="projects.html">Projects</a>
+      <a href="https://github.com/andrew-steve" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/andrew-blayama-stephen-b12a81144" target="_blank" rel="noopener">LinkedIn</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

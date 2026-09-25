@@ -1,84 +1,385 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Andrew Blayama Stephen - Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <style>
-        body { font-family: 'Arial', sans-serif; }
-        .section-header { border-bottom: 2px solid #1d4ed8; }
-        .update-item { margin-bottom: 1rem; }
-        .research-item { margin-bottom: 1.5rem; }
-        .profile-img { max-width: 150px; border-radius: 50%; }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Andrew Blayama Stephen</title>
+<meta name="description" content="Andrew Blayama Stephen — Data Analyst and Data Scientist in Kigali, Rwanda. Power BI, SQL, Python and applied machine learning for health, education and public-sector data.">
+<meta property="og:title" content="Andrew Blayama Stephen · Data Analyst & Data Scientist">
+<meta property="og:description" content="Dashboards, survey analytics, data governance and medical-imaging ML research for health and development across Africa.">
+<meta property="og:image" content="assets/andrew.jpg">
+<meta property="og:type" content="website">
+<script>try{var t=localStorage.getItem("abs-theme");if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+<link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body class="bg-gray-100">
-    <header class="bg-green-700 text-white text-center py-10">
-        <img src="Andrew Blayama Stephen.jpg" alt="Profile Picture" class="profile-img mx-auto mb-4">
-        <h1 class="text-5xl font-bold">Andrew Blayama Stephen</h1>
-        <p class="text-lg mt-2">Data Analysis, Data Science and Applied ML Research</p>
-        <p class="text-sm mt-1">Data | Healthcare | Human Development</p>
-    </header>
+<body>
 
-    <main class="max-w-4xl mx-auto p-6">
-        <!-- About Section -->
-        <section class="mb-10">
-            <h2 class="text-2xl font-semibold section-header pb-2 mb-4">About Me</h2>
-            <p class="text-gray-700">
-                Data Scientist with hands-on experience in health data analytics, applied machine learning, computer vision, and AI-driven research. Skilled in applying data science and machine learning techniques to real-world problems, from model development to clear, compelling communication. Strong foundation in statistics and data engineering principles, with proven ability in data governance, cataloguing, and maintaining high data quality across complex pipelines. Adept at translating complex data into actionable insights that support innovation and confident decision-making. Committed to using technology to strengthen healthcare systems and drive data-powered development across Africa.
-            </p>
-        </section>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html"><b>Andrew B. Stephen</b><span>data · health · development</span></a>
+    <nav class="nav" aria-label="Main">
+      <a href="index.html" aria-current="page">Intro</a>
+      <a href="research.html">Research</a>
+      <a href="projects.html">Projects</a>
+      <a href="assets/Andrew_Stephen_Resume.pdf" target="_blank" rel="noopener">CV</a>
+    </nav>
+    <button class="theme-btn" type="button" aria-label="Toggle theme"></button>
+  </div>
+</header>
 
-        <!-- Recent Updates Section -->
-        <section class="mb-10">
-            <h2 class="text-2xl font-semibold section-header pb-2 mb-4">Recent Updates</h2>
-            <ul class="list-disc pl-5 text-gray-700">
-                <li class="update-item">04/2026 – New working paper on Reassessing Glioma Segmentation Strategies: nnU-Net as a Strong Baseline on Limited Sub-Saharan MRI Data.</li>
-                <li class="update-item">12/2025 – Paper presentation on Automated and Accessible Leukemia Detection from Microscopic Blood Films Using YOLO and Vision Transformers, Polokwane, South Africa</li>
-                <li class="update-item">09/2025 – Paper presentation on Reassessing Glioma Segmentation Strategies: nnU-Net as a Strong Baseline on Limited Sub-Saharan MRI Data, Daejeon, Republic of Korea.</li>
-                <li class="update-item">08/2025 – Attended the Digital Humanism summer school, Kigali, Rwanda.</li>
-                <li class="update-item">06/2025 – Attended the inaugural Nuclear Energy Innovation Summit for Africa (NEISA) conference, Kigali, Rwanda</li>
+<main>
+  <!-- ============ HERO ============ -->
+  <div class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="eyebrow rise"><span class="dot"></span>Data Analyst · Data Scientist · Kigali, Rwanda</p>
+        <h1 class="rise d1">I turn health and program data into decisions people can act on.</h1>
+        <p class="lede rise d2">I build Power BI dashboards, analyse survey and operational data with SQL, Excel and Python, and train computer-vision models for medical imaging. My work sits where public health, government data and machine learning meet, across Rwanda and Nigeria.</p>
+        <div class="btns rise d3">
+          <a class="btn" href="projects.html">See projects
+            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a class="btn ghost" href="research.html">Read research</a>
+          <a class="btn ghost" href="assets/Andrew_Stephen_Resume.pdf" target="_blank" rel="noopener">
+            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M8 2v8M4.5 6.5 8 10l3.5-3.5M3 13h10"/></svg>Download CV</a>
+        </div>
+        <div class="contact-row rise d4">
+          <a href="mailto:andrewstephen703@gmail.com">andrewstephen703@gmail.com</a>
+          <a href="https://github.com/andrew-steve" target="_blank" rel="noopener">github/andrew-steve</a>
+          <a href="https://www.linkedin.com/in/andrew-blayama-stephen-b12a81144" target="_blank" rel="noopener">linkedin</a>
+          <span>+250 794 998 010</span>
+        </div>
+      </div>
+
+      <div class="portrait rise d2">
+        <figure>
+          <img src="assets/andrew.jpg" alt="Portrait of Andrew Blayama Stephen" width="880" height="1100">
+          <span class="bbox" data-label="data_scientist 0.99" aria-hidden="true"></span>
+        </figure>
+        <div class="coords" aria-hidden="true"><span>1.9441° S, 30.0619° E</span><span>KGL · RW</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ STATS ============ -->
+  <div class="wrap">
+    <div class="stats">
+      <div class="stat"><b>4</b><span>research outputs in 2025: MICCAI, ICCV, IEEE AFRICON, AI in Health Africa</span></div>
+      <div class="stat"><b>6</b><span>data and technology roles since 2019</span></div>
+      <div class="stat"><b>2</b><span>countries of practice: Rwanda and Nigeria</span></div>
+      <div class="stat"><b>MS</b><span>Electrical &amp; Computer Engineering, Carnegie Mellon University Africa</span></div>
+    </div>
+  </div>
+
+  <!-- ============ PROFILE ============ -->
+  <section id="profile">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <p class="eyebrow">Profile</p>
+          <h2>Analyst by training, researcher by habit.</h2>
+        </div>
+        <p>I started in IT support and database work at the Nigerian Communications Commission, moved into government health and education analytics in Kaduna State, and now support Rwanda's national data governance work at Cenfri. Alongside that I publish applied ML research on medical images from low-resource settings.</p>
+      </div>
+
+      <div class="split">
+        <div class="info" role="region" aria-label="Profile summary">
+          <div class="info-bar"><span>profile.py</span><span>In [1]</span></div>
+<pre><span class="c">&gt;&gt;&gt;</span> andrew.info()
+<span class="c">&lt;class 'DataAnalyst'&gt;  # also answers to DataScientist</span>
+<span class="k">location   </span> <span class="s">Kigali, Rwanda</span>  (prev. Kaduna &amp; Abuja, NG)
+<span class="k">now        </span> Data Science Fellow @ Cenfri
+<span class="k">degree     </span> MS ECE, Carnegie Mellon University Africa
+<span class="k">analytics  </span> Power BI · Tableau · Excel · SQL · Python
+<span class="k">ml / cv    </span> YOLO · Vision Transformers · nnU-Net
+<span class="k">field tools</span> ODK · GitHub · Docker
+<span class="k">domains    </span> health · education · data governance
+<span class="k">open_to    </span> <span class="s">"Data Analyst / Data Scientist roles"</span>
+<span class="c">dtype: mission-driven, international development</span></pre>
+        </div>
+        <div style="display:grid;gap:1.1rem;align-content:start">
+          <p class="lede" style="font-size:1.08rem">Most of my work starts with a question from someone who is not a data person: a ministry planner, a programme manager, a clinician. I scope the question, check the data is fit for it, do the analysis, and hand back something they can use, usually a dashboard or a short briefing.</p>
+          <p class="muted">On the research side I care about models that work with the data Africa actually has: small MRI cohorts, microscope slides from local labs, and limited annotation budgets.</p>
+          <ul class="plain-list">
+            <li>Stakeholder-first reporting for technical and non-technical audiences</li>
+            <li>Data quality, validation and documentation built into the workflow</li>
+            <li>Reproducible analysis with Python, SQL and version control</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WHAT I DO ============ -->
+  <section id="capabilities">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <p class="eyebrow">What I do</p>
+          <h2>Three ways I can help a team.</h2>
+        </div>
+        <p>Each one is backed by work I have delivered. Follow the links for the detail.</p>
+      </div>
+      <div class="caps">
+        <article class="cap">
+          <svg class="glyph" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="4" y="6" width="36" height="32" rx="2"/><path d="M11 30V22M18 30V14M25 30v-9M32 30V11"/></svg>
+          <h3>Analytics &amp; BI reporting</h3>
+          <p>Power BI dashboards for programme and operational KPIs, automated reporting in Excel and SQL, and survey analysis that ends in a clear recommendation.</p>
+          <ul><li class="tag">Power BI</li><li class="tag">SQL</li><li class="tag">Excel</li><li class="tag">Tableau</li><li class="tag">Statistics</li></ul>
+          <p class="evidence">Evidence: <a href="projects.html#p-natview">Natview dashboards</a>, <a href="projects.html#p-health-services">Kaduna health surveys</a></p>
+        </article>
+        <article class="cap">
+          <svg class="glyph" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="22" cy="22" r="17"/><circle cx="15" cy="17" r="4"/><circle cx="28" cy="15" r="3.5"/><circle cx="26" cy="28" r="4.5"/><path d="M9 9h8v8H9zM21 21.5h10v10H21z" stroke-dasharray="2 2"/></svg>
+          <h3>Machine learning &amp; computer vision</h3>
+          <p>Detection, classification and segmentation models for medical images, from dataset validation and labelling to training, evaluation and write-up.</p>
+          <ul><li class="tag">Python</li><li class="tag">YOLO</li><li class="tag">ViT</li><li class="tag">nnU-Net</li><li class="tag">Recommenders</li></ul>
+          <p class="evidence">Evidence: <a href="research.html#pubs">4 papers &amp; posters</a>, <a href="projects.html#p-malaria">malaria detection</a></p>
+        </article>
+        <article class="cap">
+          <svg class="glyph" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="1.6"><ellipse cx="22" cy="10" rx="14" ry="5"/><path d="M8 10v24c0 2.8 6.3 5 14 5s14-2.2 14-5V10M8 22c0 2.8 6.3 5 14 5s14-2.2 14-5"/><path d="m17 33 3 3 6-6"/></svg>
+          <h3>Data governance &amp; quality</h3>
+          <p>Data cataloguing, quality checks, interoperability and responsible data-sharing practice for government data systems.</p>
+          <ul><li class="tag">Cataloguing</li><li class="tag">Data quality</li><li class="tag">ODK</li><li class="tag">Documentation</li></ul>
+          <p class="evidence">Evidence: <a href="projects.html#p-cenfri">Rwanda data governance at Cenfri</a></p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section id="experience">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <p class="eyebrow">Experience</p>
+          <h2>Where I have worked.</h2>
+        </div>
+        <p>Most recent first. Government, research and non-profit settings in Rwanda and Nigeria.</p>
+      </div>
+      <ol class="timeline">
+        <li class="role">
+          <div class="when"><span class="now">Oct 2025 – present</span></div>
+          <div>
+            <h3>Data Science Fellow</h3>
+            <p class="org">Cenfri <span>· Kigali, Rwanda</span></p>
+            <ul>
+              <li>Support Rwanda's national data governance and data cataloguing initiatives.</li>
+              <li>Improve data quality, interoperability and responsible data-sharing practices.</li>
+              <li>Collaborate across government teams on data management and analytics projects.</li>
+              <li>Contribute to centralised reporting and analytics infrastructure.</li>
             </ul>
-        </section>
+            <div class="tags"><span class="tag jade">Data governance</span><span class="tag">Cataloguing</span><span class="tag">Public sector</span></div>
+          </div>
+        </li>
+        <li class="role">
+          <div class="when">Aug 2025 – Dec 2025</div>
+          <div>
+            <h3>Graduate Teaching Assistant, Recommender Systems</h3>
+            <p class="org">Carnegie Mellon University Africa <span>· Kigali, Rwanda</span></p>
+            <ul>
+              <li>Built and debugged collaborative-filtering and content-based models for course labs and student projects.</li>
+              <li>Ran weekly office hours and review sessions on machine learning and recommender systems.</li>
+              <li>Handled course logistics, announcements and student communication.</li>
+            </ul>
+            <div class="tags"><span class="tag jade">Recommender systems</span><span class="tag">Python</span><span class="tag">Teaching</span></div>
+          </div>
+        </li>
+        <li class="role">
+          <div class="when">Jun 2025 – Aug 2025</div>
+          <div>
+            <h3>Graduate Research Assistant</h3>
+            <p class="org">Carnegie Mellon University Africa <span>· Kigali, Rwanda</span></p>
+            <ul>
+              <li>Applied AI and machine learning to healthcare data analysis projects.</li>
+              <li>Validated datasets to improve data reliability and model performance.</li>
+              <li>Ran exploratory data analysis and model evaluation in Python.</li>
+              <li>Improved analytical pipelines through continuous testing and optimisation.</li>
+            </ul>
+            <div class="tags"><span class="tag jade">Health AI</span><span class="tag">EDA</span><span class="tag">Model evaluation</span></div>
+          </div>
+        </li>
+        <li class="role">
+          <div class="when">Apr 2024 – Jul 2024</div>
+          <div>
+            <h3>Data Analyst</h3>
+            <p class="org">Natview Foundation for Technology Innovation <span>· Kaduna, Nigeria</span></p>
+            <ul>
+              <li>Built Power BI dashboards to monitor operational and programme performance metrics.</li>
+              <li>Analysed survey and operational data with Excel, SQL and statistical methods.</li>
+              <li>Automated reporting workflows to improve accuracy and turnaround.</li>
+              <li>Translated stakeholder questions into analyses and presented findings to technical and non-technical audiences.</li>
+              <li>Supported data collection, validation, documentation, QA and reporting standards.</li>
+            </ul>
+            <div class="tags"><span class="tag ochre">Power BI</span><span class="tag">SQL</span><span class="tag">Excel</span><span class="tag">Survey analysis</span></div>
+          </div>
+        </li>
+        <li class="role">
+          <div class="when">Aug 2023 – Apr 2024</div>
+          <div>
+            <h3>Data Science Fellow</h3>
+            <p class="org">Kaduna State Bureau of Statistics <span>· Kaduna, Nigeria</span></p>
+            <ul>
+              <li>Supported the Kaduna State Government's health data pipelines and modelling for planning and decision-making.</li>
+              <li>Worked directly with sector experts to frame analytical questions.</li>
+              <li>Gained hands-on experience with the state's analytical tools and statistical workflows.</li>
+            </ul>
+            <div class="tags"><span class="tag ochre">Health data</span><span class="tag">Government</span><span class="tag">Pipelines</span></div>
+          </div>
+        </li>
+        <li class="role">
+          <div class="when">Jul 2019 – Dec 2021</div>
+          <div>
+            <h3>Intern, IT &amp; Database Support</h3>
+            <p class="org">Nigerian Communications Commission <span>· Abuja, Nigeria</span></p>
+            <ul>
+              <li>Provided IT support to staff and departments across the Commission.</li>
+              <li>Handled hardware and software repairs, troubleshooting and maintenance.</li>
+              <li>Managed databases and wrote queries for internal teams.</li>
+            </ul>
+            <div class="tags"><span class="tag">Databases</span><span class="tag">IT support</span></div>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
 
-        <!-- Research Section -->
-        <section class="mb-10">
-            <h2 class="text-2xl font-semibold section-header pb-2 mb-4">Research</h2>
-            <!-- <h3 class="text-xl font-medium mb-3">Preprints and Working Papers</h3> -->
-            <div class="research-item">
-                <h3 class="font-semibold">Reassessing Glioma Segmentation Strategies: nnU-Net as a Strong Baseline on Limited Sub-Saharan MRI Data (April, 2026)</h3>
-                <p class="text-gray-700">Uwimana Lowami, <b>Andrew Blayama Stephen</b>, Confidence Raymond, Dong Zhang, Maruf Adewole, Udunna C. Anazodo, Mehmet Kurt, Damilare Olatunji, & Bernes Lorier Atabonfack </p>
-                <p>Segmentation, Classification, and Synthesis for Brain Tumors and Traumatic Brain Injuries. MICCAI 2025.</p>
-                <p>Lecture Notes in Computer Science, vol 16376. Springer, Cham.</p>
-                <p><a href="https://doi.org/10.1007/978-3-032-16365-3_30" class="text-green-700 hover:underline">Paper</a></p>
-            </div>
+  <!-- ============ SKILLS ============ -->
+  <section id="skills">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <p class="eyebrow">Toolkit</p>
+          <h2>Tools I reach for.</h2>
+        </div>
+        <p>Grouped by the job they do. The note on the right shows where I have used each one.</p>
+      </div>
+      <div class="skills">
+        <div class="skill-group">
+          <h3>Analysis &amp; BI</h3>
+          <ul>
+            <li>Power BI <small>Natview</small></li>
+            <li>Microsoft Excel <small>surveys, reporting</small></li>
+            <li>Tableau <small>visualisation</small></li>
+            <li>Statistical analysis <small>Kaduna studies</small></li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Code &amp; data</h3>
+          <ul>
+            <li>Python <small>EDA, ML</small></li>
+            <li>SQL <small>reporting, queries</small></li>
+            <li>GitHub <small>version control</small></li>
+            <li>Docker <small>environments</small></li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Machine learning</h3>
+          <ul>
+            <li>Object detection <small>YOLO</small></li>
+            <li>Image classification <small>ViT</small></li>
+            <li>Segmentation <small>nnU-Net</small></li>
+            <li>Recommender systems <small>CMU-Africa</small></li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Data practice</h3>
+          <ul>
+            <li>Data governance <small>Cenfri</small></li>
+            <li>Data quality &amp; QA <small>all roles</small></li>
+            <li>ODK data collection <small>drug survey</small></li>
+            <li>Stakeholder reporting <small>briefings</small></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 
-            <div class="research-item">
-                <h3 class="font-semibold">Automated and Accessible Leukemia Detection from Microscopic Blood Films Using YOLO and Vision Transformers (December, 2025)</h3>
-                <p class="text-gray-700"><b>Andrew Blayama Stephen</b>, Miracle James Olotuche, Mona Aman, & Azizuddin Ahmed Biyabani</p>
-                <p>IEEE AFRICON CONFERENCE 2025</p>
-                <p><a href="https://2025.ieee-africon.org/" class="text-green-700 hover:underline">Coming soon</a></p>
-            </div>
+  <!-- ============ UPDATES ============ -->
+  <section id="updates">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <p class="eyebrow">Recent updates</p>
+          <h2>News log.</h2>
+        </div>
+        <p>Papers, talks and programmes from the last year and a half.</p>
+      </div>
+      <ul class="log">
+        <li><time datetime="2026-04">Apr 2026</time><p><b>Glioma segmentation paper</b> published in the MICCAI 2025 workshop proceedings, Springer LNCS vol. 16376.</p><a class="chip-link" href="https://doi.org/10.1007/978-3-032-16365-3_30" target="_blank" rel="noopener">DOI</a></li>
+        <li><time datetime="2025-12">Dec 2025</time><p><b>Presented</b> leukemia detection with YOLO and Vision Transformers at IEEE AFRICON 2025, Polokwane, South Africa.</p><a class="chip-link" href="research.html#pub-leukemia">Paper</a></li>
+        <li><time datetime="2025-10">Oct 2025</time><p><b>Joined Cenfri</b> as a Data Science Fellow supporting Rwanda's national data governance work.</p><a class="chip-link" href="#experience">Role</a></li>
+        <li><time datetime="2025-09">Sep 2025</time><p><b>Presented</b> glioma segmentation on limited Sub-Saharan MRI data at MICCAI 2025, Daejeon, Republic of Korea.</p><a class="chip-link" href="research.html#pub-glioma">Paper</a></li>
+        <li><time datetime="2025-08">Aug 2025</time><p><b>Attended</b> the Digital Humanism Summer School, Kigali, Rwanda.</p><span></span></li>
+        <li><time datetime="2025-06">Jun 2025</time><p><b>Attended</b> the inaugural Nuclear Energy Innovation Summit for Africa (NEISA), Kigali, Rwanda.</p><span></span></li>
+      </ul>
+    </div>
+  </section>
 
-            <div class="research-item">
-                <h3 class="font-semibold">AutoSign: Direct Pose-to-Text Translation for Continuous Sign Language Recognition</h3>
-                <p class="text-gray-700">Samuel Johnny, Blessed Guda, <b>Andrew Blayama Stephen</b>, & Assane Gueye</p>
-                <p>ICCV MSLR Workshop 2025</p>
-                <p><a href="https://openaccess.thecvf.com/content/ICCV2025W/MSLR/html/Johnny_AutoSign_Direct_Pose-to-Text_Translation_for_Continuous_Sign_Language_Recognition_ICCVW_2025_paper.html" class="text-green-700 hover:underline">Paper</a></p>
-            </div>
+  <!-- ============ EDUCATION ============ -->
+  <section id="education">
+    <div class="wrap split">
+      <div>
+        <p class="eyebrow" style="margin-bottom:.9rem">Education</p>
+        <h2 style="margin-bottom:1.75rem">Engineering foundations.</h2>
+        <div class="edu">
+          <div class="edu-item">
+            <span class="meta">Aug 2024 – Dec 2025 · Kigali, Rwanda</span>
+            <h3>MS, Electrical &amp; Computer Engineering</h3>
+            <p>Carnegie Mellon University Africa</p>
+          </div>
+          <div class="edu-item">
+            <span class="meta">Nov 2016 – Sep 2021 · Minna, Nigeria</span>
+            <h3>B.Tech, Electrical &amp; Computer Engineering</h3>
+            <p>Federal University of Technology Minna</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <p class="eyebrow" style="margin-bottom:.9rem">Volunteering</p>
+        <h2 style="margin-bottom:1.75rem">Beyond the job.</h2>
+        <ul class="plain-list">
+          <li>Digital Malaria Control for the Developing World</li>
+          <li>Digital Humanism Summer School</li>
+          <li>Breast Cancer Awareness Campaign</li>
+          <li>SDGs Awareness Campaign</li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
-            <div class="research-item">
-                <h4 class="font-semibold">Automated Diabetic Retinopathy Detection</h4>
-                <p class="text-gray-700">Mohamed Alpha, Mukama Francois, & <b>Andrew Blayama Stephen</b></p>
-                <p>AI in Health Africa Conference 2025</p>
-                <p><a href="https://conference.makerereaihealthlab.com/posters/7222bc75-79ea-48b3-8a8e-a9ac6e03476d" class="text-green-700 hover:underline">Poster Presentation</a></p>
-            </div>
-        </section>
-    </main>
+  <!-- ============ CTA ============ -->
+  <section id="contact">
+    <div class="wrap">
+      <div class="cta">
+        <div>
+          <p class="eyebrow" style="color:inherit;opacity:.7">Hiring for data?</p>
+          <h2 style="margin-top:.8rem">Let's talk about your data problem.</h2>
+          <p>I'm open to Data Analyst and Data Scientist roles, especially in health, international development and the public sector. Based in Kigali and comfortable working remotely.</p>
+        </div>
+        <div class="btns">
+          <button class="btn" type="button" data-copy="andrewstephen703@gmail.com"><span data-copy-label>Copy email</span></button>
+          <a class="btn ghost" href="https://www.linkedin.com/in/andrew-blayama-stephen-b12a81144" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn ghost" href="assets/Andrew_Stephen_Resume.pdf" target="_blank" rel="noopener">CV (PDF)</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
 
-    <footer class="bg-green-700 text-white text-center py-4">
-        <p>&copy; 2026 Andrew Blayama Stephen. All rights reserved.</p>
-    </footer>
+<footer class="site-footer">
+  <div class="wrap">
+    <span>© <span data-year>2026</span> Andrew Blayama Stephen · Kigali</span>
+    <nav aria-label="Footer">
+      <a href="index.html">Intro</a><a href="research.html">Research</a><a href="projects.html">Projects</a>
+      <a href="https://github.com/andrew-steve" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/andrew-blayama-stephen-b12a81144" target="_blank" rel="noopener">LinkedIn</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
 </body>
 </html>
